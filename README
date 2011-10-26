@@ -1,0 +1,5 @@
+RTWIDL is an IDL library written by Robin Wilson with a number of useful commands and functions in it.
+
+Dependencies: David Fanning's Coyote Library (www.idlcoyote.com)
+
+To use the library, place it in a directory on your computer and add that directory to the IDL path. Documentation for routines is provided inside the individual .pro files.
