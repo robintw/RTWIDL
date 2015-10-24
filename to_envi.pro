@@ -11,11 +11,11 @@
 ; :Keywords:
 ;    _EXTRA - Any other keywords you would normally pass to ENVI_ENTER_DATA
 ;
-; :Author: rtw1v07
+; :Author: Robin Wilson (robin@rtwilson.com)
 ;-
 PRO TO_ENVI, image, _EXTRA = ex
   IF IS_ENVI_RUNNING() EQ 0 THEN envi
-  
+
   i = image
   ENVI_ENTER_DATA, i, _EXTRA = ex
 END

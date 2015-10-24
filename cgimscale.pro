@@ -6,8 +6,6 @@
 ;    image - the image to display
 ;    _EXTRA - any further parameters to pass to cgImage
 ;
-;
-;
 ; :Author: rtw1v07
 ;-
 PRO cgImScale, image, _EXTRA
